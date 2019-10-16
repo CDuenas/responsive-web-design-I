@@ -1,3 +1,495 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+		/* nav bar stuff */
+nav {
+	display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	width: 10%;
+	display: inline-block;
+	top: 0;
+}
+
+.logo {
+	/* height: 50px;
+	width: 200px; */
+	padding: 0;
+	top: 0;
+}
+
+/* div {
+	border-width: 1px;
+	border: dashed;
+} */
+
+		/* Innovation / 1st Image section */
+
+#main-body{
+	height: 550px;
+	position: relative;
+	border: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 3% 0;
+}
+
+
+h1 {
+	float: left;
+	height: 300px;
+	font-size: 100px;
+	text-align: center;
+	padding: 100px 150px;
+	/* position: absolute; */
+	
+}
+
+.code-image {
+	height: 500px;
+	width: 500px;
+	padding-right: 10%;
+	box-sizing: content-box;
+}
+
+.get-started {
+	position: absolute;
+	top: 78%;
+	left: 20%;
+	font-size: 20px;
+	border: 1px solid black;
+	width: 200px;
+    padding: 1%;
+    text-align: center;
+}
+
+/* Features and About row */
+
+
+#second-body{
+	border-top: 2px solid black;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding: 1% 0;
+}
+
+#feature-box p {
+    width: 48%;
+    margin: 0;
+}
+
+#about-box p {
+    width: 48%;
+    margin: 0;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Image below features and about */
+
+.middle-img{
+	width: 1100px;
+	height: auto;
+	left: 15%;
+	display: flex;
+	position: relative;
+	max-width: 100%;
+	align-items: center;
+	justify-content: center;
+
+}
+
+/* Services/Product/Vision Row */
+
+#third-body{
+	height: 220px;
+	border-bottom: 2px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+#service-box{
+	display: inline-block;
+	/* position: absolute; */
+	/* float: right; */
+	padding: 50px;
+	/* height: 50%; */
+	width: 33%;
+	margin-left: 0;
+}
+
+#product-box{
+	display: inline-block;
+	/* position: absolute; */
+	/* float: right; */
+	padding: 50px;
+	/* height: 50%; */
+	width: 33%;
+	margin-left: 0;
+}
+
+#vision-box{
+	display: inline-block;
+	/* float: right; */
+	padding: 50px;
+	/* height: 19%; */
+	width: 33%;
+}
+
+
+footer{
+	height: 100px;
+}
+
+h2{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+h3 {
+	display: inline-block;
+	text-align: center;
+	top: 100px;
+	
+}
+
+#feature-box{
+	/* display: inline-block; */
+	/* position: absolute; */
+	height: 50%;
+	width: 100%;
+	padding: 0 50px 0 50px;
+	
+}
+
+
+
+
+footer{
+	margin-top: 100px;
+}
+
+address{
+	padding-bottom: 25px;
+}
+
+.foot-number {
+	padding-bottom: 25px;
+}
+
+.copyright {
+	text-align: center;
+	padding-top: 50px;
+}
+
+body{
+    margin: 0 8%;
+}
+
+
+
+
+
+/* Service CSS */
+
+/* Top image */
+
+.services-header-img {
+	width: 100%;
+
+}
+
+/* Service section */
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0;
+	align-items: flex-start;
+}
+
+#service-h1{
+	font-size: 40px;
+	padding: 10px 0;
+	margin: 10px 0;
+	height: 50px;
+	left: 0;
+}
+
+.description p {
+	padding-top: 0;
+	padding-bottom: 50px; 
+	font-weight: 500;
+}
+
+/* Line through page */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid rgb(0, 0, 0);
+	margin: 1em 0;
+	margin-bottom: 50px;
+    padding: 0;
+}
+
+.hr-2 {
+	display: block;
+    height: 1px;
+    border: 0;
+	border-top: 2px solid rgb(0, 0, 0);
+	padding: 0;
+	margin-top: 50px;
+}
+
+
+/* Body boxes */
+
+
+/* Container for all body boxes */
+.body-box-container {
+	display: flex;
+	flex-direction: row;
+	align-items: space-around;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	margin:0;
+}
+
+/* First two boxes */
+
+.body-box {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.body-box-ux {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.learn-button {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+/* Middle boxes */
+
+.body-box-digital {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.body-box-web {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+/* Last two boxes */
+
+.body-box-ios {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.body-box-android {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+	border: 1px solid black;
+}
+
+.service-foot {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	margin-bottom: 100px;
+}
+
+.facts {
+	margin-right: 50px;
+	margin-bottom: 25px;
+	width: 50%;
+	padding-left: 10px;
+	padding-top: 25px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+
+h4 {
+	margin-bottom: 30px;
+}
+
+.facts p {
+	margin-bottom: 20px;
+	padding-left: 0;
+}
+
+ul {
+	list-style-type: square;
+	display: list-item;
+	list-style-position: inside;
+	padding-bottom: 15px;
+
+	
+}
+
+.facts-img {
+	width: 50%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.copyright-services {
+	text-align: center;
+	padding-top: 50px;
+}
+
+/* Feature page CSS */
+
+/* Top img */
+
+.img-container {
+	display:flex;
+	/* flex-direction: row; */
+	height: 200px;
+	width: 100%;
+}
+
+.feature-img{
+	max-width: 100%;
+	/* object-fit: contain; */
+}
 
