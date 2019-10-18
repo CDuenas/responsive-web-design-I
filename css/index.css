@@ -621,7 +621,7 @@ ul {
 	}
 
 	nav a {
-		width: 100%;
+		width: 95%;
 	}
 
 	.get-started {
@@ -657,27 +657,33 @@ ul {
 
 	#third-body {
 		flex-direction: column;
-		width: 100%;
+		width: 95%;
 		height: 100%;
 		align-items: flex-start;
 	}
 
 	#service-box {
-		width: 100%;
+		width: 95%;
 		margin-bottom: 6%;
 	}
 
 	#product-box {
-		width: 100%;
+		width: 95%;
 		margin-bottom: 6%;
 	}
 
 	#vision-box {
-		width: 100%;
+		width: 95%;
 	}
 
 	footer {
 		margin: 5% 3%;
 		width: 95%;
+	}
+
+	h1 {
+		font-size: 90px;
+		padding: 0;
+		padding-top: 50px;
 	}
 }
